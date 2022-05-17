@@ -9,7 +9,12 @@ html, body {
 }
 
 .container {
-  max-width: 40rem;
+  max-width: 50rem;
+  margin: auto;
+  background-color: #343434;
+}
+
+nav {
   margin: auto;
 }
 
@@ -22,6 +27,17 @@ nav ul li {
   display: inline-block;
   padding: 20px 5px;
   text-align: center;
+  transition-duration: 0.3s;
+}
+
+nav ul li a {
+  color: whitesmoke;
+  padding: 20px 5px;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #555555;
 }
 
 article {
